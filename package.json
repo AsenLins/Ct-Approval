@@ -1,0 +1,55 @@
+{
+  "name": "webadmintemplate",
+  "version": "1.0.0",
+  "description": "前台网站脚手架",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://10.68.2.9/GitGUIServer/WebAdminTemplate.git"
+  },
+  "author": "asenlins",
+  "license": "MIT",
+  "scripts": {
+    "s_dev": "cross-env NODE_ENV=development webpack-dev-server --config src/singleApp/webpack.config.js --open --hot ",
+    "s_build": "cross-env NODE_ENV=production webpack --progress --config src/singleApp/webpack.config.js --hide-modules",
+    "m_server": "",
+    "multipack": "webpack --config ./src/multi-App/webpack.config.js",
+    "s_element-init": "cross-env et --init src/singleApp/style/elementUI/baseScss/element-variables.scss",
+    "s_element-build": "cross-env et --config src/singleApp/style/elementUI/baseScss/element-variables.scss --out src/singleApp/style/elementUI"
+  },
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^1.1.0",
+    "babel-plugin-import": "^1.6.7",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "element-theme": "^2.0.1",
+    "element-theme-chalk": "^2.3.2",
+    "emoji-awesome": "0.0.1",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^3.0.6",
+    "jquery": "^3.3.1",
+    "qq-wechat-emotion-parser": "^1.0.4",
+    "url-loader": "^1.0.1",
+    "vant": "^1.0.3",
+    "vue-loader": "^13.0.5",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.4.4",
+    "vuex": "^3.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
