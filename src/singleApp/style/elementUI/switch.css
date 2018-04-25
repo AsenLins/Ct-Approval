@@ -236,7 +236,7 @@
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   height: 20px;
   vertical-align: middle; }
@@ -248,20 +248,20 @@
     transition: .2s;
     height: 20px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     vertical-align: middle;
     color: #303133; }
     .el-switch__label.is-active {
-      color: #409EFF; }
+      color: #EA1313; }
     .el-switch__label--left {
       margin-right: 10px; }
     .el-switch__label--right {
       margin-left: 10px; }
     .el-switch__label * {
       line-height: 1;
-      font-size: 14px;
+      font-size: 16px;
       display: inline-block; }
   .el-switch__input {
     position: absolute;
@@ -270,7 +270,7 @@
     opacity: 0;
     margin: 0; }
     .el-switch__input:focus ~ .el-switch__core {
-      outline: 1px solid #409EFF; }
+      outline: 1px solid #EA1313; }
   .el-switch__core {
     margin: 0;
     display: inline-block;
@@ -300,8 +300,8 @@
       height: 16px;
       background-color: #fff; }
   .el-switch.is-checked .el-switch__core {
-    border-color: #409EFF;
-    background-color: #409EFF; }
+    border-color: #EA1313;
+    background-color: #EA1313; }
   .el-switch.is-disabled {
     opacity: 0.6; }
   .el-switch--wide .el-switch__label.el-switch__label--left span {

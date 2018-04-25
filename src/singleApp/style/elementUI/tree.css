@@ -245,13 +245,13 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #6f7180; }
+    color: #c42c0a; }
   .el-tree__drop-indicator {
     position: absolute;
     left: 0;
     right: 0;
     height: 1px;
-    background-color: #409EFF; }
+    background-color: #EA1313; }
 
 .el-tree-node {
   white-space: nowrap;
@@ -261,7 +261,7 @@
     .el-tree-node:focus > .el-tree-node__content {
       background-color: #f5f7fa; }
   .el-tree-node.is-drop-inner > .el-tree-node__content .el-tree-node__label {
-    background-color: #409EFF;
+    background-color: #EA1313;
     color: #fff; }
   .el-tree-node__content {
     display: -webkit-box;
@@ -301,10 +301,10 @@
       color: transparent;
       cursor: default; }
   .el-tree-node__label {
-    font-size: 14px; }
+    font-size: 16px; }
   .el-tree-node__loading-icon {
     margin-right: 8px;
-    font-size: 14px;
+    font-size: 16px;
     color: #c0c4cc; }
   .el-tree-node > .el-tree-node__children {
     overflow: hidden;
@@ -313,4 +313,4 @@
     display: block; }
 
 .el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
-  background-color: #f0f7ff; }
+  background-color: #fdecec; }

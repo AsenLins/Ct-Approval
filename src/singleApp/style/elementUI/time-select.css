@@ -574,6 +574,9 @@
     width: 350px; }
   .el-date-editor--datetimerange.el-input, .el-date-editor--datetimerange.el-input__inner {
     width: 400px; }
+  .el-date-editor--dates .el-input__inner {
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .el-date-editor .el-icon-circle-close {
     cursor: pointer; }
   .el-date-editor .el-range__icon {
@@ -594,7 +597,7 @@
     padding: 0;
     width: 39%;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: #606266; }
     .el-date-editor .el-range-input::-webkit-input-placeholder {
       color: #c0c4cc; }
@@ -635,9 +638,9 @@
   line-height: 1; }
 
 .el-range-editor.is-active {
-  border-color: #409EFF; }
+  border-color: #EA1313; }
   .el-range-editor.is-active:hover {
-    border-color: #409EFF; }
+    border-color: #EA1313; }
 
 .el-range-editor--medium.el-input__inner {
   height: 36px; }
@@ -1079,10 +1082,10 @@
     outline: none;
     cursor: pointer; }
     .el-picker-panel__shortcut:hover {
-      color: #409EFF; }
+      color: #EA1313; }
     .el-picker-panel__shortcut.active {
       background-color: #e6f1fe;
-      color: #409EFF; }
+      color: #EA1313; }
   .el-picker-panel__btn {
     border: 1px solid #dcdcdc;
     color: #333;
@@ -1105,7 +1108,7 @@
     outline: none;
     margin-top: 8px; }
     .el-picker-panel__icon-btn:hover {
-      color: #409EFF; }
+      color: #EA1313; }
     .el-picker-panel__icon-btn.is-disabled {
       color: #bbb; }
       .el-picker-panel__icon-btn.is-disabled:hover {
@@ -1174,9 +1177,9 @@
     cursor: pointer;
     color: #606266; }
     .el-date-picker__header-label:hover {
-      color: #409EFF; }
+      color: #EA1313; }
     .el-date-picker__header-label.active {
-      color: #409EFF; }
+      color: #EA1313; }
   .el-date-picker__prev-btn {
     float: left; }
   .el-date-picker__next-btn {
@@ -1788,7 +1791,7 @@
   line-height: 20px; }
 
 .time-select-item.selected:not(.disabled) {
-  color: #409EFF;
+  color: #EA1313;
   font-weight: bold; }
 
 .time-select-item.disabled {
